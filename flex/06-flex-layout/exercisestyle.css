@@ -1,0 +1,68 @@
+/* SOLUTION */
+
+html {
+    height: 100%;
+  }
+  
+  .left-links, .right-links {
+    list-style-type: none;
+  }
+  
+  a {  
+    text-decoration: none;
+    color: darkslategray;
+  }
+  
+  /*.body {
+    display: flex;
+    flex-direction: column;
+  }*/
+  
+  .header {
+    display: flex;
+    padding: 8px;
+  }
+  
+  .header .right-links {
+    margin-left: auto;
+    margin-right: 24px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header .left-links {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .buttons {
+    padding: 8px;
+  }
+  
+  /*.footer {
+    display: flex;
+    background-color:#eeee;
+    margin-top: auto;
+    padding: 8px;
+  }*/
+  
+  .footer .right-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 24px;
+    gap: 10px;
+  }
+  
+  .footer .left-links {
+    display: flex;
+    gap: 10px;
+  }
